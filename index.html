@@ -55,6 +55,15 @@ ga('create', 'UA-41480445-1', 'purecss.io');
 ga('send', 'pageview');
 </script>
 
+<script>
+function twitter() {
+    location.href="https://twitter.com/Mel_2606";
+}
+
+function linkedin() {
+    location.href="https://www.linkedin.com/profile/view?id=244950907&trk=nav_responsive_tab_profile";
+}
+</script>
 
 </head>
 <body>
@@ -64,9 +73,9 @@ ga('send', 'pageview');
         <a class="pure-menu-heading" href="">Melanie Niemandt</a>
 
         <ul>
-            <li class="pure-menu-selected"><a href="splash">Home</a></li>
-            <li><a href="content">Contact Me</a></li>
-            <li><a href="#">Blog</a></li>
+            <li class="pure-menu-selected"><a href="">Home</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+            <li><del><a href="">Blog</a></del></li>
         </ul>
     </div>
 </div>
@@ -147,7 +156,7 @@ ga('send', 'pageview');
     </div>
 
     <div class="content">
-	<h2 class="content-head is-center" id="yui_3_17_2_1_1413214882942_10">Contact Me</h2>
+	<h2 class="content-head is-center" id="Contact">Contact Me</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
@@ -181,8 +190,9 @@ ga('send', 'pageview');
 			<center>			
 			
 			<input type="image" src="facebookIcon.png" name="image" height="100">
-			<input type="image" src="twitterIcon.png" name="image" height="100">
-			<input type="image" src="linkedinIcon.png" name="image" height="100">
+			<input type="image" src="twitterIcon.png" name="image" height="100" onclick="twitter()">
+			<input type="image" src="linkedinIcon.png" name="image" height="100" onclick="linkedin()">
+			<input type="image" src="pinterestIcon.png" name="image" height="100">
 			
 			</center>
                 </h4>                
